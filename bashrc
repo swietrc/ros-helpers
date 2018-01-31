@@ -99,3 +99,8 @@ fi
 #fi
 
 source /opt/ros/indigo/setup.bash
+export TURTLEBOT_BASE=kobuki
+export TURTLEBOT_STACKS=hexagons
+export TURTLEBOT_3D_SENSOR=kinect
+export TURTLEBOT_GAZEBO_WORLD_FILE=/opt/ros/indigo/share/turtlebot_gazebo/worlds/iotlab.world 
+
