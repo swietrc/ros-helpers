@@ -104,3 +104,5 @@ export TURTLEBOT_STACKS=hexagons
 export TURTLEBOT_3D_SENSOR=kinect
 export TURTLEBOT_GAZEBO_WORLD_FILE=/opt/ros/indigo/share/turtlebot_gazebo/worlds/iotlab.world 
 
+export ROS_MASTER_URI=http://192.168.1.10:11311
+export ROS_HOSTNAME=192.168.1.254
