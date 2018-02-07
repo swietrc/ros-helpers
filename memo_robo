@@ -1,0 +1,19 @@
+roslaunch turtlebot_bringup minimal.launch --screen
+
+roslaunch turtlebot_navigation amcl_demo.launch map_file:=/home/groupe2/ros-helpers/map_final.yaml
+
+
+
+
+
+
+
+
+roslaunch turtlebot_rviz_launchers view_navigation.launch --screen
+
+rosrun nav_eval main.py
+
+
+
+
+demo_twist/src/move_robot.py 
